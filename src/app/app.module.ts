@@ -27,6 +27,9 @@ import { FooterComponent } from './footer/footer.component';
 import { LeaderService } from './services/leader.service';
 import { LoginComponent } from './login/login.component';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatSelectModule } from '@angular/material/select';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -54,7 +57,10 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatInputModule,
     MatCheckboxModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatSelectModule,
+    MatSlideToggleModule,
+    ReactiveFormsModule
   ],
   providers: [
     DishService,
