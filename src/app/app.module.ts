@@ -15,6 +15,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { FormsModule } from '@angular/forms';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 import 'hammerjs';
 import { MenuComponent } from './menu/menu.component';
@@ -49,6 +50,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatToolbarModule,
     MatDialogModule,
     MatListModule,
+    MatProgressSpinnerModule,
     MatGridListModule,
     MatCardModule,
     MatButtonModule,
